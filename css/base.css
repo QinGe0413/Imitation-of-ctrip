@@ -1,0 +1,56 @@
+body{
+    width: 100%;
+    min-width: 1180px;
+}
+body,ul,ol,li,p,h1,h2,h3,h4,dl,dd{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+/* 设置阿里图标鼠标进入旋转180度 */
+.arotate:hover>i.icon-xiasanjiaoxing{
+    display: inline-block;
+    transform: rotate(180deg);
+}
+/* 浮动 */
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/* 清除坍塌 */
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* 定位 */
+/* 绝对定位 */
+.pos-a{
+    position: absolute;
+}
+/* 相对定位 */
+.pos-r{
+    position: relative;
+}
+.pos-f{
+    position: fixed;
+}
+/* 字体大小 */
+.f-12size{
+    font-size: 12px;
+}
+.f-16size{
+    font-size: 12px;
+}
+.f-w{
+    font-weight: normal;
+}

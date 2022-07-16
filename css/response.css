@@ -1,0 +1,28 @@
+header>nav{
+    width: 980px;
+}
+.about-ctirp>.container{
+    width: 980px;
+}
+.goods>.goods-item{
+    width: 980px;
+}
+.goods>.goods-item>ul>li:last-child{
+    display: none;
+}
+.goods>.goods-item>ul>li:nth-child(14){
+    display: none;
+}
+.goods>.goods-item>ul>li>a{
+    padding:  0 7.5px;
+    white-space: nowrap;
+}
+.direct-train>.content{
+    width: 980px;
+}
+.direct-train>.content>ul>li:nth-child(12){
+    display: none;
+}
+.direct-train>.content>ul>li:nth-child(13){
+    display: none;
+}
