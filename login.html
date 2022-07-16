@@ -1,0 +1,1743 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="携程旅行网是中国领先的在线旅行服务公司，向超过9000万会员提供酒店预订、酒店点评及特价酒店查询、机票预订、飞机票查询、时刻表、票价查询、航班查询、度假预订、商旅管理、为您的出行提供全方位旅行服务。">
+    <meta name="keywords" content="酒店预订,特价酒店, 机票,机票预订,飞机票查询,航班查询,酒店团购,旅游度假,旅行,商旅管理">
+    <!-- 引入桌面小图标 -->
+    <link rel="icon"
+        href="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2743612478,1371473343&fm=26&gp=0.jpg"
+        type="image/x-icon">
+    <!-- 引入swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.js"> </script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"> </script>
+    <!-- 引入阿里图标 -->
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_3223611_729mtkuegbc.css">
+    <!-- 引入公共样式 -->
+    <link rel="stylesheet" href="./css/base.css">
+    <!-- 引入头部样式 -->
+    <link rel="stylesheet" href="./css/header.css">
+    <!-- 引入内容样式 -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- 引入底部样式 -->
+    <link rel="stylesheet" href="./css/footer.css">
+    <!-- 引入响应式 -->
+    <link rel="stylesheet" href="./css/response.css" media="screen and (max-width:1200px)">
+    <title>携程旅行网官网:酒店预订,机票预订查询,旅游度假,商旅管理</title>
+</head>
+
+<body>
+    <header id="head">
+        <nav>
+            <ul class="nav-left">
+                <li>让旅行更幸福</li>
+                <li class="arotate lang pos-r">
+                    <i class="iconfont icon-diqiu"></i>
+                    <span>Language</span>
+                    <i class="iconfont icon-xiasanjiaoxing"></i>
+                    <ul class="cho-lan pos-a">
+                        <li>
+                            <p>简体中文</p>
+                        </li>
+                        <li>
+                            <p>English(USA)</p>
+                        </li>
+                        <li>
+                            <p>English</p>
+                        </li>
+                        <li>
+                            <p>繁体中文(中国香港)</p>
+                        </li>
+                        <li>
+                            <p>English(Hong Kong)</p>
+                        </li>
+                        <li>
+                            <p>韩语</p>
+                        </li>
+                        <li>
+                            <p>日本语</p>
+                        </li>
+                        <li>
+                            <p>English(Singapore)</p>
+                        </li>
+                        <li>
+                            <p>English (Australia)</p>
+                        </li>
+                        <li>
+                            <p>Deutsch</p>
+                        </li>
+                        <li>
+                            <p>Francais</p>
+                        </li>
+                        <li>
+                            <p>Espanol</p>
+                        </li>
+                        <li>
+                            <p>Italiano</p>
+                        </li>
+                        <li>
+                            <p>pyccknn</p>
+                        </li>
+                        <li>
+                            <p>泰语</p>
+                        </li>
+                        <li>
+                            <p>Bahasa Indonesia</p>
+                        </li>
+                        <li>
+                            <p>Bahasa Malaysia</p>
+                        </li>
+                        <li>
+                            <p>English(Malaysia)</p>
+                        </li>
+                        <li>
+                            <p>越南</p>
+                        </li>
+                        <li>
+                            <p>Nederlands</p>
+                        </li>
+                        <li>
+                            <p>Polski</p>
+                        </li>
+                        <li>
+                            <p>Em</p>
+                        </li>
+                        <li>
+                            <p>Turkce</p>
+                        </li>
+                    </ul>
+                </li>
+                <a href="#">❤网站无障碍</a>
+            </ul>
+            <!-- nav右测 -->
+            <ul class="nav-right">
+                <li class="login">
+                    <a class="hello" href="#">您好,请登录</a>
+                </li>
+                <li class="register">
+                    <a href="#">免费注册</a>
+                </li>
+                <li class="massage">
+                    <a href="#">
+                        <i class="iconfont icon-tubiao_xinfeng"></i>
+                        <span>消息</span>
+                    </a>
+                </li>
+                <li class="mytrip">
+                    <a href="#" class="arotate">
+                        <span>我的携程</span>
+                        <i class="iconfont icon-xiasanjiaoxing"></i>
+                    </a>
+                    <ul class="user-info pos-a">
+                        <li><a href="#">我的收藏</a></li>
+                        <li><a href="#">我的优惠券</a></li>
+                        <li><a href="#">常用信息</a></li>
+                        <li><a href="#">我的钱包</a></li>
+                    </ul>
+                </li>
+                <li class="order">
+                    <a href="#" class="arotate">
+                        <span>我的订单</span>
+                        <i class="iconfont icon-xiasanjiaoxing"></i>
+                    </a>
+                    <ul class="my-order pos-a">
+                        <li><a href="#">机票+相关订单</a></li>
+                        <li><a href="#">酒店订单</a></li>
+                        <li><a href="#">旅游订单</a></li>
+                        <li><a href="#">火车票订单</a></li>
+                        <li><a href="#">全部订单</a></li>
+                        <li><a href="#">手机号查订单</a></li>
+                    </ul>
+                </li>
+                <li class="cuscen">
+                    <a href="#">客服中心</a>
+                </li>
+                <!-- 手机图标 -->
+                <li id="phone" class="phone">
+                    <a href="#">
+                        <i class="iconfont icon-shouji"></i>
+                    </a>
+                    <section class="download pos-a">
+                        <div class="pic">
+                            <img src="./images/header/dowonload_qrcode.png" alt="">
+                        </div>
+                        <p>手机扫码快速下载</p>
+                        <p><a href="#">携程旅行手机版></a></p>
+                    </section>
+                </li>
+                <!-- 微信图标 -->
+                <li id="wechat" class="wechat">
+                    <a href="#">
+                        <i class="iconfont icon-weixin"></i>
+                    </a>
+                    <section class="wcdownload pos-a">
+                        <div class="pic">
+                            <img src="./images/header/dowonload_qrcode.png" alt="">
+                        </div>
+                        <p>扫一扫</p>
+                        <p>了解爆款旅行好货</p>
+                    </section>
+                </li>
+            </ul>
+        </nav>
+        <!-- 公司 -->
+        <section class="about-ctirp">
+            <section class="cantainer pos-r">
+                <section class="logo-search">
+                    <h1 class="logo"></h1>
+                    <section class="search pos-r">
+                        <input type="text" name="search" placeholder="搜索旅行地/酒店/旅游/景点门票/交通">
+                        <button class="pos-a">
+                            <i class="iconfont icon-fangdajing"></i>
+                        </button>
+                    </section>
+                </section>
+                <section class="phone-num pos-a">
+                    <ul class="pos-r">
+                        <li>境内:95010</li>
+                        <li>(或)400-830-6666</li>
+                        <li class="phone-none">中国香港：+852-3008-3295</li>
+                        <li class="phone-none">中国澳门、中国台湾：+86-21 3406-4888</li>
+                        <li class="phone-none">其他国家和地区：+86-21-3406-4888</li>
+                        <li>
+                            <i class="iconfont icon-xiasanjiaoxing"></i>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+        </section>
+        <!--商品导航栏-->
+        <section class="goods">
+            <nav class="goods-item pos-r">
+                <ul>
+                    <li>
+                        <a href="#">首页</a>
+                    </li>
+                    <li class="wineshop">
+                        <a href="#">酒店
+                            <i class="iconfont icon-xiasanjiaoxing"></i>
+                        </a>
+                        <nav>
+                            <ul class="clearfix">
+                                <li><a href="#">国内酒店</a></li>
+                                <li><a href="#">国内酒店</a></li>
+                                <li><a href="#">国内酒店</a></li>
+                                <li><a href="#">国内酒店</a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li class="wineshop">
+                        <a href="#">旅游
+                            <i class="iconfont icon-xiasanjiaoxing"></i>
+                        </a>
+                        <nav>
+                            <ul class="clearfix">
+                                <li><a href="#">国内酒店</a></li>
+                                <li><a href="#">国内酒店</a></li>
+                                <li><a href="#">国内酒店</a></li>
+                                <li><a href="#">国内酒店</a></li>
+                                <li><a href="#">国内酒店</a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li>
+                        <a href="#">跟团游
+                            <i class="iconfont icon-xiasanjiaoxing"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">自由行
+                            <i class="iconfont icon-xiasanjiaoxing"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">机票
+                            <i class="iconfont icon-xiasanjiaoxing"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">火车
+                            <i class="iconfont icon-xiasanjiaoxing"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">汽车.船
+                            <i class="iconfont icon-xiasanjiaoxing"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">用车
+                            <i class="iconfont icon-xiasanjiaoxing"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">门票
+                            <i class="iconfont icon-xiasanjiaoxing"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">攻略
+                            <i class="iconfont icon-xiasanjiaoxing"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">全球购
+                            <i class="iconfont icon-xiasanjiaoxing"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">商旅
+                            <i class="iconfont icon-xiasanjiaoxing"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">邮轮</a>
+                    </li>
+                    <li>
+                        <a href="#">更多
+                            <i class="iconfont icon-xiasanjiaoxing"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <!-- 境外直通车 -->
+        <section class="direct-train">
+            <section class="content">‘
+                <ul>
+                    <li>境外直通车</li>
+                    <li>
+                        <i></i>
+                        <a href="#">海外酒店</a>
+                    </li>
+                    <li>
+                        <i></i>
+                        <a href="#">海外酒店</a>
+                    </li>
+                    <li>
+                        <i></i>
+                        <a href="#">海外酒店</a>
+                    </li>
+                    <li>
+                        <i></i>
+                        <a href="#">海外酒店</a>
+                    </li>
+                    <li>
+                        <i></i>
+                        <a href="#">海外酒店</a>
+                    </li>
+                    <li>
+                        <i></i>
+                        <a href="#">海外酒店</a>
+                    </li>
+                    <li>
+                        <i></i>
+                        <a href="#">海外酒店</a>
+                    </li>
+                    <li>
+                        <i></i>
+                        <a href="#">海外酒店</a>
+                    </li>
+                    <li>
+                        <i></i>
+                        <a href="#">海外酒店</a>
+                    </li>
+                    <li>
+                        <i></i>
+                        <a href="#">海外酒店</a>
+                    </li>
+                    <li>
+                        <i></i>
+                        <a href="#">海外酒店</a>
+                    </li>
+                </ul>
+            </section>
+        </section>
+    </header>
+    <!-- 所有内容区 -->
+    <section class="main">
+        <!-- 轮播图和表单 -->
+        <section class="banner-form">
+            <div class="swiper-container pos-r">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+                <div class="form pos-a">
+                    <form action="" class="pos-a">
+                        <ul class="search-boxul">
+                            <li>
+                                <a>酒店</a>
+                                <section class="hotel">
+                                    <ul class="hotel-switch">
+                                        <li>
+                                            <a href="#">国内酒店</a>
+                                            <ul class="china-hotelform">
+                                                <li>
+                                                    <label class="deslab" for="destination">目的地</label>
+                                                    <input id="destination" class="destination" type="text"
+                                                        name="destination" placeholder="中文/拼音">
+                                                </li>
+                                                <li class="date">
+                                                    <label for="">入住日期</label>
+                                                    <input type="date" name="in" value="2022-04-20">
+                                                    <label class="houseout" for="">退房日期</label>
+                                                    <input type="date" name="out" value="2022-04-20">
+                                                </li>
+                                                <li>
+                                                    <label class="house-count">房间数</label>
+                                                    <select class="house" name="house">
+                                                        <option value="one">1间</option>
+                                                        <option value="two">2间</option>
+                                                        <option value="three">3间</option>
+                                                        <option value="four">4间</option>
+                                                        <option value="five">5间</option>
+                                                        <option value="six">6间</option>
+                                                        <option value="seven">7间</option>
+                                                        <option value="eight">8间</option>
+                                                        <option value="nine">9间</option>
+                                                        <option value="ten">10间</option>
+                                                    </select>
+                                                    <label class="out" for="">住房数</label>
+                                                    <select name="house" class="num">
+                                                        <option value="one">1成人</option>
+                                                        <option value="two">2人</option>
+                                                        <option value="three">3人</option>
+                                                    </select>
+                                                </li>
+                                                <li>
+                                                    <label>酒店</label>
+                                                    <select class="level" name="level">
+                                                        <option value="bu">不限</option>
+                                                        <option value="five">五星级/豪华</option>
+                                                        <option value="four">四星级/高档</option>
+                                                        <option value="three">三星级/舒适</option>
+                                                        <option value="three">三星级以下/经济</option>
+                                                    </select>
+                                                    <label class="keywords" for="keywords">关键词</label>
+                                                    <input id="keywords" type="text" placeholder="(选填)酒店名/地表/商圈">
+                                                </li>
+                                                <li class="submit-border">
+                                                    <input class="submit" type="submit" value="搜索">
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">海外酒店</a></li>
+                                        <li><a href="#">民宿</a></li>
+                                    </ul>
+                                </section>
+                            </li>
+                            <li>
+                                <p>机票</p>
+                            </li>
+                            <li>
+                                <p>旅游</p>
+                            </li>
+                            <li>
+                                <p>跟团游</p>
+                            </li>
+                            <li class="sign">
+                                <p>打包订</p>
+                            </li>
+                            <li>
+                                <p>火车</p>
+                            </li>
+                            <li>
+                                <p>用车</p>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- 旅游景点 -->
+        <section class="scenic-spot">
+            <section class="content">
+                <nav>
+                    <ul>
+                        <li class="hot">
+                            <a href="#">热门</a>
+                            <section class="scenics">
+                                <ul class="clearfix">
+                                    <li id="select">
+                                        <a href="#">精选</a>
+                                        <section class="secnic-info">
+                                            <ul class="secnic-items">
+                                                <li>
+                                                    <section>
+                                                        <p>成都</p>
+                                                        <p><sup>￥</sup><span>913</span>/人起</p>
+                                                    </section>
+                                                    <div class="new-con">
+                                                        <h3>成都</h3>
+                                                        <p>
+                                                            <i class="iconfont icon-qizhi"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和爱上</span>
+                                                        </p>
+                                                        <p>
+                                                            <i class="iconfont icon-canju"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和</span>
+                                                        </p>
+                                                        <p>
+                                                            立即查看300条产品>
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <section>
+                                                        <p>成都</p>
+                                                        <p><sup>￥</sup><span>913</span>/人起</p>
+                                                    </section>
+                                                    <div class="new-con">
+                                                        <h3>成都</h3>
+                                                        <p>
+                                                            <i class="iconfont"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和</span>
+                                                        </p>
+                                                        <p>
+                                                            <i class="iconfont"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和</span>
+                                                        </p>
+                                                        <p>
+                                                            立即查看300条产品
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <section>
+                                                        <p>成都</p>
+                                                        <p><sup>￥</sup><span>913</span>/人起</p>
+                                                    </section>
+                                                    <div class="new-con">
+                                                        <h3>成都</h3>
+                                                        <p>
+                                                            <i class="iconfont"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和</span>
+                                                        </p>
+                                                        <p>
+                                                            <i class="iconfont"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和</span>
+                                                        </p>
+                                                        <p>
+                                                            立即查看300条产品
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <section>
+                                                        <p>成都</p>
+                                                        <p><sup>￥</sup><span>913</span>/人起</p>
+                                                    </section>
+                                                    <div class="new-con">
+                                                        <h3>成都</h3>
+                                                        <p>
+                                                            <i class="iconfont"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和</span>
+                                                        </p>
+                                                        <p>
+                                                            <i class="iconfont"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和</span>
+                                                        </p>
+                                                        <p>
+                                                            立即查看300条产品
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <section>
+                                                        <p>成都</p>
+                                                        <p><sup>￥</sup><span>913</span>/人起</p>
+                                                    </section>
+                                                    <div class="new-con">
+                                                        <h3>成都</h3>
+                                                        <p>
+                                                            <i class="iconfont"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和</span>
+                                                        </p>
+                                                        <p>
+                                                            <i class="iconfont"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和</span>
+                                                        </p>
+                                                        <p>
+                                                            立即查看300条产品
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <section>
+                                                        <p>成都</p>
+                                                        <p><sup>￥</sup><span>913</span>/人起</p>
+                                                    </section>
+                                                    <div class="new-con">
+                                                        <h3>成都</h3>
+                                                        <p>
+                                                            <i class="iconfont"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和</span>
+                                                        </p>
+                                                        <p>
+                                                            <i class="iconfont"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和</span>
+                                                        </p>
+                                                        <p>
+                                                            立即查看300条产品
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <section>
+                                                        <p>成都</p>
+                                                        <p><sup>￥</sup><span>913</span>/人起</p>
+                                                    </section>
+                                                    <div class="new-con">
+                                                        <h3>成都</h3>
+                                                        <p>
+                                                            <i class="iconfont"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和</span>
+                                                        </p>
+                                                        <p>
+                                                            <i class="iconfont"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和</span>
+                                                        </p>
+                                                        <p>
+                                                            立即查看300条产品
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <section>
+                                                        <p>成都</p>
+                                                        <p><sup>￥</sup><span>913</span>/人起</p>
+                                                    </section>
+                                                    <div class="new-con">
+                                                        <h3>成都</h3>
+                                                        <p>
+                                                            <i class="iconfont"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和</span>
+                                                        </p>
+                                                        <p>
+                                                            <i class="iconfont"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和</span>
+                                                        </p>
+                                                        <p>
+                                                            立即查看300条产品
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </section>
+                                    </li>
+                                    <li>
+                                        <a href="#">境内</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">境内</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">境内</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">境内</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">境内</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">境内</a>
+                                    </li>
+                                </ul>
+                            </section>
+                        </li>
+                        <li>
+                            <a href="#">周边</a>
+                        </li>
+                        <li>
+                            <a href="#">周边</a>
+                        </li>
+                        <li>
+                            <a href="#">周边</a>
+                        </li>
+                        <li>
+                            <a href="#">周边</a>
+                        </li>
+                        <li>
+                            <a href="#">周边</a>
+                        </li>
+                        <li>
+                            <a href="#">周边</a>
+                        </li>
+                        <li>
+                            <a href="#">周边</a>
+                        </li>
+                        <li>
+                            <a href="#">周边</a>
+                        </li>
+                        <li class="arotate">
+                            <span>上海出发</span>
+                            <i class="iconfont icon-jiantouarrow486"></i>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </section>
+        <!-- 海外酒店 -->
+        <section class="scenic-spot overseas-hotels">
+            <section class="content">
+                <nav>
+                    <ul>
+                        <li class="hot">
+                            <a href="#">海外酒店</a>
+                            <section class="scenics clearfix">
+                                <nav class="scenics-left">
+                                    <ul>
+                                        <li>
+                                            <h3>
+                                                促销
+                                            </h3>
+                                            <p>睡遍全世界——新加坡国家馆</p>
+                                            <p>睡遍全世界——新加坡国家馆</p>
+                                            <p>睡遍全世界——新加坡国家馆</p>
+                                            <p>睡遍全世界——新加坡国家馆</p>
+                                            <p>睡遍全世界——新加坡国家馆</p>
+                                        </li>
+                                        <li>
+                                            <h3>
+                                                发现酒店
+                                            </h3>
+                                            <p>睡遍全世界——新加坡国家馆圣诞节卡三等奖</p>
+                                            <p>睡遍全世界——新加坡国家馆</p>
+                                            <p>睡遍全世界——新加坡国家馆</p>
+                                            <p>睡遍全世界——新加坡国家馆</p>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <ul class="clearfix scenics-right">
+                                    <li id="select">
+                                        <a href="#">热门城市</a>
+                                        <section class="secnic-info">
+                                            <ul class="secnic-items">
+                                                <li>
+                                                    <section>
+                                                        <p>成都</p>
+                                                        <p><sup>￥</sup><span>913</span>/人起</p>
+                                                    </section>
+                                                    <div class="new-con">
+                                                        <h3>成都</h3>
+                                                        <p>
+                                                            <i class="iconfont icon-qizhi"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和爱上</span>
+                                                        </p>
+                                                        <p>
+                                                            <i class="iconfont icon-canju"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和</span>
+                                                        </p>
+                                                        <p>
+                                                            立即查看300条产品>
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <section>
+                                                        <p>成都</p>
+                                                        <p><sup>￥</sup><span>913</span>/人起</p>
+                                                    </section>
+                                                    <div class="new-con">
+                                                        <h3>成都</h3>
+                                                        <p>
+                                                            <i class="iconfont"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和</span>
+                                                        </p>
+                                                        <p>
+                                                            <i class="iconfont"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和</span>
+                                                        </p>
+                                                        <p>
+                                                            立即查看300条产品
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <section>
+                                                        <p>成都</p>
+                                                        <p><sup>￥</sup><span>913</span>/人起</p>
+                                                    </section>
+                                                    <div class="new-con">
+                                                        <h3>成都</h3>
+                                                        <p>
+                                                            <i class="iconfont"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和</span>
+                                                        </p>
+                                                        <p>
+                                                            <i class="iconfont"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和</span>
+                                                        </p>
+                                                        <p>
+                                                            立即查看300条产品
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <section>
+                                                        <p>成都</p>
+                                                        <p><sup>￥</sup><span>913</span>/人起</p>
+                                                    </section>
+                                                    <div class="new-con">
+                                                        <h3>成都</h3>
+                                                        <p>
+                                                            <i class="iconfont"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和</span>
+                                                        </p>
+                                                        <p>
+                                                            <i class="iconfont"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和</span>
+                                                        </p>
+                                                        <p>
+                                                            立即查看300条产品
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <section>
+                                                        <p>成都</p>
+                                                        <p><sup>￥</sup><span>913</span>/人起</p>
+                                                    </section>
+                                                    <div class="new-con">
+                                                        <h3>成都</h3>
+                                                        <p>
+                                                            <i class="iconfont"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和</span>
+                                                        </p>
+                                                        <p>
+                                                            <i class="iconfont"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和</span>
+                                                        </p>
+                                                        <p>
+                                                            立即查看300条产品
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <section>
+                                                        <p>成都</p>
+                                                        <p><sup>￥</sup><span>913</span>/人起</p>
+                                                    </section>
+                                                    <div class="new-con">
+                                                        <h3>成都</h3>
+                                                        <p>
+                                                            <i class="iconfont"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和</span>
+                                                        </p>
+                                                        <p>
+                                                            <i class="iconfont"></i>
+                                                            <span>景点：成都大熊猫假设打色哈维和</span>
+                                                        </p>
+                                                        <p>
+                                                            立即查看300条产品
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <section class="adv"></section>
+                                        </section>
+                                    </li>
+                                    <li>
+                                        <a href="#">都市购物</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">都市购物</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">都市购物</a>
+                                    </li>
+                                </ul>
+                            </section>
+                        </li>
+                        <li>
+                            <a href="#">国内酒店
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">国内酒店
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">国内酒店
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">国内酒店
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </section>
+        <!-- 国际机票 -->
+        <section class="scenic-spot passenfer-ticket">
+            <section class="content">
+                <nav>
+                    <ul>
+                        <li class="hot ticket">
+                            <a href="#">国际•港澳台特价机票</a>
+                            <section class="scenlics country">
+                                <ul class="clearfix">
+                                    <li id="select">
+                                        <a href="#">热门往返</a>
+                                        <section class="secnic-info ticket-information">
+                                            <ul class="specific">
+                                                <li>
+                                                    <p>
+                                                        <span>上海</span>
+                                                        <i class="iconfont"></i>
+                                                        <span>香港</span>
+                                                    </p>
+                                                    <p>
+                                                        5月25日——6月-01日
+                                                    </p>
+                                                    <p>
+                                                        <sup>￥</sup>793<span>起</span>
+                                                    </p>
+                                                    <input type="submit" class="specifica" name="specifica" value="立抢">
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <span>上海</span>
+                                                        <i class="iconfont"></i>
+                                                        <span>香港</span>
+                                                    </p>
+                                                    <p>
+                                                        5月25日——6月-01日
+                                                    </p>
+                                                    <p>
+                                                        <sup>￥</sup>793<span>起</span>
+                                                    </p>
+                                                    <input type="submit" class="specifica" name="specifica" value="立抢">
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <span>上海</span>
+                                                        <i class="iconfont"></i>
+                                                        <span>香港</span>
+                                                    </p>
+                                                    <p>
+                                                        5月25日——6月-01日
+                                                    </p>
+                                                    <p>
+                                                        <sup>￥</sup>793<span>起</span>
+                                                    </p>
+                                                    <input type="submit" class="specifica" name="specifica" value="立抢">
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <span>上海</span>
+                                                        <i class="iconfont"></i>
+                                                        <span>香港</span>
+                                                    </p>
+                                                    <p>
+                                                        5月25日——6月-01日
+                                                    </p>
+                                                    <p>
+                                                        <sup>￥</sup>793<span>起</span>
+                                                    </p>
+                                                    <input type="submit" class="specifica" name="specifica" value="立抢">
+                                                </li>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <span>上海</span>
+                                            <i class="iconfont"></i>
+                                            <span>香港</span>
+                                        </p>
+                                        <p>
+                                            5月25日——6月-01日
+                                        </p>
+                                        <p>
+                                            <sup>￥</sup>793<span>起</span>
+                                        </p>
+                                        <input type="submit" class="specifica" name="specifica" value="立抢">
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <span>上海</span>
+                                            <i class="iconfont"></i>
+                                            <span>香港</span>
+                                        </p>
+                                        <p>
+                                            5月25日——6月-01日
+                                        </p>
+                                        <p>
+                                            <sup>￥</sup>793<span>起</span>
+                                        </p>
+                                        <input type="submit" class="specifica" name="specifica" value="立抢">
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <span>上海</span>
+                                            <i class="iconfont"></i>
+                                            <span>香港</span>
+                                        </p>
+                                        <p>
+                                            5月25日——6月-01日
+                                        </p>
+                                        <p>
+                                            <sup>￥</sup>793<span>起</span>
+                                        </p>
+                                        <input type="submit" class="specifica" name="specifica" value="立抢">
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <span>上海</span>
+                                            <i class="iconfont"></i>
+                                            <span>香港</span>
+                                        </p>
+                                        <p>
+                                            5月25日——6月-01日
+                                        </p>
+                                        <p>
+                                            <sup>￥</sup>793<span>起</span>
+                                        </p>
+                                        <input type="submit" class="specifica" name="specifica" value="立抢">
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <span>上海</span>
+                                            <i class="iconfont"></i>
+                                            <span>香港</span>
+                                        </p>
+                                        <p>
+                                            5月25日——6月-01日
+                                        </p>
+                                        <p>
+                                            <sup>￥</sup>793<span>起</span>
+                                        </p>
+                                        <input type="submit" class="specifica" name="specifica" value="立抢">
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <span>上海</span>
+                                            <i class="iconfont"></i>
+                                            <span>香港</span>
+                                        </p>
+                                        <p>
+                                            5月25日——6月-01日
+                                        </p>
+                                        <p>
+                                            <sup>￥</sup>793<span>起</span>
+                                        </p>
+                                        <input type="submit" class="specifica" name="specifica" value="立抢">
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <span>上海</span>
+                                            <i class="iconfont"></i>
+                                            <span>香港</span>
+                                        </p>
+                                        <p>
+                                            5月25日——6月-01日
+                                        </p>
+                                        <p>
+                                            <sup>￥</sup>793<span>起</span>
+                                        </p>
+                                        <input type="submit" class="specifica" name="specifica" value="立抢">
+                                    </li>
+                                </ul>
+                            </section>
+                        </li>
+                        <li>
+                            <a href="#">亚洲</a>
+                        </li>
+                        <li>
+                            <a href="#">亚洲</a>
+                        </li>
+                        <li>
+                            <a href="#">亚洲</a>
+                        </li>
+                        <li>
+                            <a href="#">亚洲</a>
+                        </li>
+                    </ul>
+            </section>
+            </li>
+            <li>
+                <a href="#">国内特价机票</a>
+            </li>
+            </ul>
+            </nav>
+        </section>
+    </section>
+    <!-- 境外租车 -->
+    <section class="play">
+        <ul class="mod-hd">
+            <li>
+                <span>当地玩乐 • 出境</span>
+                <section class="content">
+                    <section class="left">
+                        <h3>热门目的地</h3>
+                        <ul class="clerfix">
+                            <li>普吉岛</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>普吉岛</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>普吉岛</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>普吉岛</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                        </ul>
+                    </section>
+                    <ul class="right">
+                        <li>
+                            <span>
+                                一日游
+                            </span>
+                            <ul class="one-day">
+                                <li>
+                                    <div class="pic">
+                                        <img src="https://dimg04.c-ctrip.com/images/3507180000014tiu9EF0E_C_280_158.jpg"
+                                            alt="曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】">
+                                    </div>
+                                    <p>曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】
+                                    </p>
+                                    <p>
+                                        <span>泰国.曼谷</span>
+                                        <span class="rmb">
+                                            <sup>￥</sup>
+                                            <span class="count">109</span>
+                                            元起
+                                        </span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic">
+                                        <img src="https://dimg04.c-ctrip.com/images/3507180000014tiu9EF0E_C_280_158.jpg"
+                                            alt="曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】">
+                                    </div>
+                                    <p>曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】
+                                        曼谷丹嫩沙多水上集市+美功铁道市场安装结束看哈的</p>
+                                    <p>
+                                        <span>泰国。曼谷</span>
+                                        <span class="rmb">
+                                            <sup>￥</sup>
+                                            <span class="count">109</span>
+                                            元起
+                                        </span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic">
+                                        <img src="https://dimg04.c-ctrip.com/images/3507180000014tiu9EF0E_C_280_158.jpg"
+                                            alt="曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】">
+                                    </div>
+                                    <p>曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】
+                                        曼谷丹嫩沙多水上集市+美功铁道市场安装结束看哈的</p>
+                                    <p>
+                                        <span>泰国。曼谷</span>
+                                        <span class="rmb">
+                                            <sup>￥</sup>
+                                            <span class="count">109</span>
+                                            元起
+                                        </span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic">
+                                        <img src="https://dimg04.c-ctrip.com/images/3507180000014tiu9EF0E_C_280_158.jpg"
+                                            alt="曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】">
+                                    </div>
+                                    <p>曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】
+                                        曼谷丹嫩沙多水上集市+美功铁道市场安装结束看哈的</p>
+                                    <p>
+                                        <span>泰国。曼谷</span>
+                                        <span class="rmb">
+                                            <sup>￥</sup>
+                                            <span class="count">109</span>
+                                            元起
+                                        </span>
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>
+                                交通接驳
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                交通接驳
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                交通接驳
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                交通接驳
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                交通接驳
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                交通接驳
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                更多当地玩乐>
+                            </span>
+                        </li>
+                    </ul>
+                </section>
+            </li>
+            <li>
+                <span>当地玩乐 • 境内</span>
+            </li>
+        </ul>
+    </section>
+    <!-- 当地玩乐 -->
+    <section class="play">
+        <ul class="mod-hd">
+            <li>
+                <span>当地玩乐 • 出境</span>
+                <section class="content">
+                    <section class="left">
+                        <h3>热门目的地</h3>
+                        <ul class="clerfix">
+                            <li>普吉岛</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>普吉岛</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>普吉岛</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>普吉岛</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                        </ul>
+                    </section>
+                    <ul class="right">
+                        <li>
+                            <span>
+                                一日游
+                            </span>
+                            <ul class="one-day">
+                                <li>
+                                    <div class="pic">
+                                        <img src="https://dimg04.c-ctrip.com/images/3507180000014tiu9EF0E_C_280_158.jpg"
+                                            alt="曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】">
+                                    </div>
+                                    <p>曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】
+                                    </p>
+                                    <p>
+                                        <span>泰国.曼谷</span>
+                                        <span class="rmb">
+                                            <sup>￥</sup>
+                                            <span class="count">109</span>
+                                            元起
+                                        </span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic">
+                                        <img src="https://dimg04.c-ctrip.com/images/3507180000014tiu9EF0E_C_280_158.jpg"
+                                            alt="曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】">
+                                    </div>
+                                    <p>曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】
+                                        曼谷丹嫩沙多水上集市+美功铁道市场安装结束看哈的</p>
+                                    <p>
+                                        <span>泰国。曼谷</span>
+                                        <span class="rmb">
+                                            <sup>￥</sup>
+                                            <span class="count">109</span>
+                                            元起
+                                        </span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic">
+                                        <img src="https://dimg04.c-ctrip.com/images/3507180000014tiu9EF0E_C_280_158.jpg"
+                                            alt="曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】">
+                                    </div>
+                                    <p>曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】
+                                        曼谷丹嫩沙多水上集市+美功铁道市场安装结束看哈的</p>
+                                    <p>
+                                        <span>泰国。曼谷</span>
+                                        <span class="rmb">
+                                            <sup>￥</sup>
+                                            <span class="count">109</span>
+                                            元起
+                                        </span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic">
+                                        <img src="https://dimg04.c-ctrip.com/images/3507180000014tiu9EF0E_C_280_158.jpg"
+                                            alt="曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】">
+                                    </div>
+                                    <p>曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】
+                                        曼谷丹嫩沙多水上集市+美功铁道市场安装结束看哈的</p>
+                                    <p>
+                                        <span>泰国。曼谷</span>
+                                        <span class="rmb">
+                                            <sup>￥</sup>
+                                            <span class="count">109</span>
+                                            元起
+                                        </span>
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>
+                                交通接驳
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                交通接驳
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                交通接驳
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                交通接驳
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                交通接驳
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                交通接驳
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                更多当地玩乐>
+                            </span>
+                        </li>
+                    </ul>
+                </section>
+            </li>
+            <li>
+                <span>当地玩乐 • 境内</span>
+            </li>
+        </ul>
+    </section>
+    <!-- 全球购 -->
+    <section class="play">
+        <ul class="mod-hd">
+            <li>
+                <span>当地玩乐 • 出境</span>
+                <section class="content">
+                    <section class="left">
+                        <h3>热门目的地</h3>
+                        <ul class="clerfix">
+                            <li>普吉岛</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>普吉岛</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>普吉岛</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>普吉岛</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                        </ul>
+                    </section>
+                    <ul class="right">
+                        <li>
+                            <span>
+                                一日游
+                            </span>
+                            <ul class="one-day">
+                                <li>
+                                    <div class="pic">
+                                        <img src="https://dimg04.c-ctrip.com/images/3507180000014tiu9EF0E_C_280_158.jpg"
+                                            alt="曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】">
+                                    </div>
+                                    <p>曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】
+                                    </p>
+                                    <p>
+                                        <span>泰国.曼谷</span>
+                                        <span class="rmb">
+                                            <sup>￥</sup>
+                                            <span class="count">109</span>
+                                            元起
+                                        </span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic">
+                                        <img src="https://dimg04.c-ctrip.com/images/3507180000014tiu9EF0E_C_280_158.jpg"
+                                            alt="曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】">
+                                    </div>
+                                    <p>曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】
+                                        曼谷丹嫩沙多水上集市+美功铁道市场安装结束看哈的</p>
+                                    <p>
+                                        <span>泰国。曼谷</span>
+                                        <span class="rmb">
+                                            <sup>￥</sup>
+                                            <span class="count">109</span>
+                                            元起
+                                        </span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic">
+                                        <img src="https://dimg04.c-ctrip.com/images/3507180000014tiu9EF0E_C_280_158.jpg"
+                                            alt="曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】">
+                                    </div>
+                                    <p>曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】
+                                        曼谷丹嫩沙多水上集市+美功铁道市场安装结束看哈的</p>
+                                    <p>
+                                        <span>泰国。曼谷</span>
+                                        <span class="rmb">
+                                            <sup>￥</sup>
+                                            <span class="count">109</span>
+                                            元起
+                                        </span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic">
+                                        <img src="https://dimg04.c-ctrip.com/images/3507180000014tiu9EF0E_C_280_158.jpg"
+                                            alt="曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】">
+                                    </div>
+                                    <p>曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】
+                                        曼谷丹嫩沙多水上集市+美功铁道市场安装结束看哈的</p>
+                                    <p>
+                                        <span>泰国。曼谷</span>
+                                        <span class="rmb">
+                                            <sup>￥</sup>
+                                            <span class="count">109</span>
+                                            元起
+                                        </span>
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>
+                                交通接驳
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                交通接驳
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                交通接驳
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                交通接驳
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                交通接驳
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                交通接驳
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                更多当地玩乐>
+                            </span>
+                        </li>
+                    </ul>
+                </section>
+            </li>
+            <li>
+                <span>当地玩乐 • 境内</span>
+            </li>
+        </ul>
+    </section>
+    <!-- 目的地 -->
+    <section class="play">
+        <ul class="mod-hd">
+            <li>
+                <span>当地玩乐 • 出境</span>
+                <section class="content">
+                    <section class="left">
+                        <h3>热门目的地</h3>
+                        <ul class="clerfix">
+                            <li>普吉岛</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>普吉岛</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>普吉岛</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                            <li>普吉岛</li>
+                            <li>曼谷</li>
+                            <li>曼谷</li>
+                        </ul>
+                    </section>
+                    <ul class="right">
+                        <li>
+                            <span>
+                                一日游
+                            </span>
+                            <ul class="one-day">
+                                <li>
+                                    <div class="pic">
+                                        <img src="https://dimg04.c-ctrip.com/images/3507180000014tiu9EF0E_C_280_158.jpg"
+                                            alt="曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】">
+                                    </div>
+                                    <p>曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】
+                                    </p>
+                                    <p>
+                                        <span>泰国.曼谷</span>
+                                        <span class="rmb">
+                                            <sup>￥</sup>
+                                            <span class="count">109</span>
+                                            元起
+                                        </span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic">
+                                        <img src="https://dimg04.c-ctrip.com/images/3507180000014tiu9EF0E_C_280_158.jpg"
+                                            alt="曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】">
+                                    </div>
+                                    <p>曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】
+                                        曼谷丹嫩沙多水上集市+美功铁道市场安装结束看哈的</p>
+                                    <p>
+                                        <span>泰国。曼谷</span>
+                                        <span class="rmb">
+                                            <sup>￥</sup>
+                                            <span class="count">109</span>
+                                            元起
+                                        </span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic">
+                                        <img src="https://dimg04.c-ctrip.com/images/3507180000014tiu9EF0E_C_280_158.jpg"
+                                            alt="曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】">
+                                    </div>
+                                    <p>曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】
+                                        曼谷丹嫩沙多水上集市+美功铁道市场安装结束看哈的</p>
+                                    <p>
+                                        <span>泰国。曼谷</span>
+                                        <span class="rmb">
+                                            <sup>￥</sup>
+                                            <span class="count">109</span>
+                                            元起
+                                        </span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic">
+                                        <img src="https://dimg04.c-ctrip.com/images/3507180000014tiu9EF0E_C_280_158.jpg"
+                                            alt="曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】">
+                                    </div>
+                                    <p>曼谷丹嫩沙多水上集市+美功铁道市场一日游【上门接送/睡醒出发/大皇宫/安帕瓦VIP】
+                                        曼谷丹嫩沙多水上集市+美功铁道市场安装结束看哈的</p>
+                                    <p>
+                                        <span>泰国。曼谷</span>
+                                        <span class="rmb">
+                                            <sup>￥</sup>
+                                            <span class="count">109</span>
+                                            元起
+                                        </span>
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>
+                                交通接驳
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                交通接驳
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                交通接驳
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                交通接驳
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                交通接驳
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                交通接驳
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                更多当地玩乐>
+                            </span>
+                        </li>
+                    </ul>
+                </section>
+            </li>
+            <li>
+                <span>当地玩乐 • 境内</span>
+            </li>
+        </ul>
+    </section>
+    <!-- 旅行服务 -->
+    <section class="travel-service">
+        <ul class="service-list"></ul>
+    </section>
+    <!-- 企业商旅 -->
+    <section class="travel-service">
+        <ul class="service-list"></ul>
+    </section>
+    <!-- 合作商 -->
+    <section class="official-partner">
+    </section>
+    </section>
+    <!-- 侧边栏 -->
+    <aside>
+        <ul>
+            <li>
+                <a href="#">旅游</a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="iconfont icon-diqiu"></i>
+                </a>
+                <a href="#head" class="point">酒店</a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="iconfont icon-diqiu"></i>
+                </a>
+                <span>机票</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="iconfont icon-diqiu"></i>
+                </a>
+                <span>机票</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="iconfont icon-diqiu"></i>
+                </a>
+                <span>机票</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="iconfont icon-diqiu"></i>
+                </a>
+                <span>机票</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="iconfont icon-diqiu"></i>
+                </a>
+                <span>机票</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="iconfont icon-diqiu"></i>
+                </a>
+                <span>机票</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="iconfont icon-diqiu"></i>
+                </a>
+                <a href="#foot" class="point">商旅</a>
+            </li>
+        </ul>
+    </aside>
+    <footer id="foot">
+        <section class="footer"></section>
+    </footer>
+    <script>
+        const mySwiper = new Swiper('.swiper-container', {
+            direction: 'horizontal', // 垂直切换选项
+            loop: true, // 循环模式选项
+
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            //自动播放
+            autoplay: {
+                delay: 3000,
+                stopOnLastSlide: false,
+                disableOnInteraction: true,
+            },
+        })
+    </script>
+</body>
+
+</html>
